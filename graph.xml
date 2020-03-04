@@ -1,0 +1,131 @@
+<nodes>
+	<node name="FF1" type="FF">
+		<propagationDelay>3</propagationDelay>
+		<setupTime>5</setupTime>
+		<holdTime>1</holdTime>
+		<input>0</input>
+		<output>1</output>
+	</node>
+	<node name="AND5" type="GATE">
+		<propagationDelay>3</propagationDelay>
+		<input>8</input>
+		<output>9</output>
+	</node>
+	<node name="FF2" type="FF">
+		<propagationDelay>3</propagationDelay>
+		<setupTime>5</setupTime>
+		<holdTime>1</holdTime>
+		<input>4</input>
+		<output>5</output>
+	</node>
+	<node name="FF3" type="FF">
+		<propagationDelay>3</propagationDelay>
+		<setupTime>5</setupTime>
+		<holdTime>1</holdTime>
+		<input>6</input>
+		<output>7</output>
+	</node>
+	<node name="FF4" type="FF">
+		<propagationDelay>3</propagationDelay>
+		<setupTime>5</setupTime>
+		<holdTime>1</holdTime>
+		<input>11</input>
+		<output>12</output>
+	</node>
+	<node name="FF5" type="FF">
+		<propagationDelay>3</propagationDelay>
+		<setupTime>5</setupTime>
+		<holdTime>1</holdTime>
+		<input>14</input>
+		<output>15</output>
+	</node>
+	<node name="FF6" type="FF">
+		<propagationDelay>3</propagationDelay>
+		<setupTime>5</setupTime>
+		<holdTime>1</holdTime>
+		<input>16</input>
+		<output>17</output>
+	</node>
+	<node name="FF7" type="FF">
+		<propagationDelay>3</propagationDelay>
+		<setupTime>5</setupTime>
+		<holdTime>1</holdTime>
+		<input>20</input>
+		<output>21</output>
+	</node>
+	<node name="AND1" type="GATE">
+		<propagationDelay>3</propagationDelay>
+		<input>1,9</input>
+		<output>2</output>
+	</node>
+	<node name="AND2" type="GATE">
+		<propagationDelay>3</propagationDelay>
+		<input>2</input>
+		<output>3</output>
+	</node>
+	<node name="AND3" type="GATE">
+		<propagationDelay>3</propagationDelay>
+		<input>3,13</input>
+		<output>4</output>
+	</node>
+	<node name="AND4" type="GATE">
+		<propagationDelay>3</propagationDelay>
+		<input>5</input>
+		<output>6</output>
+	</node>
+	<node name="AND6" type="GATE">
+		<propagationDelay>3</propagationDelay>
+		<input>3</input>
+		<output>10</output>
+	</node>
+	<node name="AND7" type="GATE">
+		<propagationDelay>3</propagationDelay>
+		<input>10,18</input>
+		<output>11</output>
+	</node>
+	<node name="AND8" type="GATE">
+		<propagationDelay>3</propagationDelay>
+		<input>12</input>
+		<output>13</output>
+	</node>
+	<node name="AND9" type="GATE">
+		<propagationDelay>3</propagationDelay>
+		<input>15,23</input>
+		<output>16</output>
+	</node>
+	<node name="AND10" type="GATE">
+		<propagationDelay>3</propagationDelay>
+		<input>17</input>
+		<output>18</output>
+	</node>
+	<node name="AND11" type="GATE">
+		<propagationDelay>3</propagationDelay>
+		<input>11</input>
+		<output>19</output>
+	</node>
+	<node name="AND12" type="GATE">
+		<propagationDelay>3</propagationDelay>
+		<input>19</input>
+		<output>20</output>
+	</node>
+	<node name="AND13" type="GATE">
+		<propagationDelay>3</propagationDelay>
+		<input>22</input>
+		<output>23</output>
+	</node>
+	<node name="AND14" type="GATE">
+		<propagationDelay>3</propagationDelay>
+		<input>16</input>
+		<output>24</output>
+	</node>
+	<node name="AND15" type="GATE">
+		<propagationDelay>3</propagationDelay>
+		<input>24</input>
+		<output>25</output>
+	</node>
+	<node name="AND16" type="GATE">
+		<propagationDelay>3</propagationDelay>
+		<input>20,25</input>
+		<output>26</output>
+	</node>
+</nodes>
